@@ -112,11 +112,11 @@ function build_game_html() {
             
             if (wiki_link_found) {
                 var wiki_url = base_wiki_url.concat(wiki_link);
-                html_string = html_string.concat("<a href=\"" + wiki_url + "\"><img src=wikipedia-icon.png/></a>");
+                html_string = html_string.concat("<a href=\"" + wiki_url + "\"><img src=\"wikipedia-icon.png/"></a>");
                 html_string = html_string.concat("    ");
             }
             var steam_url = base_steam_url.concat(app_ID);
-            html_string = html_string.concat("<a href=\"" + steam_url + "\"><img src=steam_icon.png/></a>");
+            html_string = html_string.concat("<a href=\"" + steam_url + "\"><img src=\"steam_icon.png\"></a>");
             
             html_string = html_string.concat("</div>");
              
