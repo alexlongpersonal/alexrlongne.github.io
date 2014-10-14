@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2014, 8:19:14 AM
+    Author     : alex
+*/
+table {
+    padding: 15px;    
+}
+
+body {
+    background-color:#000029;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Verdana", Times, sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+img {
+    height:20px;
+    width: 20px;
+}
+
+#game_box{
+   height: 150px;
+   width: 300px;
+   border:#6495ED;
+   background-color:#000014;
+   color: #FFFFFF;
+   opacity:0.7;
+   border-radius:10px; 
+   padding: 10px;
+}
+
+
+#name_div {
+    font-family: "Verdana", Times, sans-serif;
+    font-size: 22px;
+    text-align:center;
+    margin:auto;
+}
+
+#text_div {
+    font-family: "Verdana", Times, sans-serif;
+    font-size: 16px;
+    text-align:center;
+    margin:auto;
+}
+
